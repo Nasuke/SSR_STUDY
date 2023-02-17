@@ -1,0 +1,12 @@
+
+$primary-color: #fac;
+$primary-fs: "40px";
+$border-color: #caf;
+
+@mixin border(){
+    border: 2px solid $border-color ;
+}
+
+:export {
+    primaryColor: $primary-color
+}

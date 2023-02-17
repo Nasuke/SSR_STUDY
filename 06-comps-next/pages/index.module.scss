@@ -1,0 +1,17 @@
+// 不需要命名空间
+@use "../styles/variable.module.scss" as *;
+
+.border {
+    @include border();
+    text-align: center;
+}
+.bc {
+    width: 140px;
+    height: 140px;
+    @include border();
+    background-image: url(/circularlinkedlist.png);
+}
+
+:export {
+    primaryColor: #fca
+}
