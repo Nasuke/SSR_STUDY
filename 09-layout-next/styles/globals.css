@@ -1,0 +1,14 @@
+.header {
+  height: 100px;
+  text-align: center;
+  background-color: #fac;
+}
+.footer {
+  height: 100px;
+  text-align: center;
+  background-color: #fca;
+}
+
+div a {
+  margin: 0 20px;
+}
